@@ -1,16 +1,23 @@
-# flutter_navig
+# Add Navigation!
 
-A new Flutter application.
+## Goals
+ - Create a unit converter screen. Currently, this screen just displays some mock units (which we've generated for you in `category_route.dart`, using the Unit class in `unit.dart`).
+ - Navigate to a Category-specific route, when you tap on a Category. This route takes you to the unit converter screen.
 
-## Getting Started
+## Steps
+ 1. Fill out the TODOs in `category.dart` and `converter_route.dart` using the specs below.
+ 2. Customize your app if desired.
 
-This project is a starting point for a Flutter application.
+## Specs
+ - The ConverterRoute should also have an AppBar, the same color as the Category widget that was tapped.
+ - The Title of the AppBar should be the name of the Category.
+ - Pass the name, color, and units to the ConverterRoute.
+ - The background color of each unit should be the same as the ConverterRoute's AppBar color.
 
-A few resources to get you started if this is your first Flutter project:
+## Screenshots
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+### Start
+<img src='../../screenshots/04_navigation.png' width='350'>
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Solution
+<img src='../../screenshots/04_navigation_2.png' width='350'><img src='../../screenshots/04_navigation_3.gif' width='350'>
